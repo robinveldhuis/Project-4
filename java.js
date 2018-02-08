@@ -1,3 +1,4 @@
+﻿// dit is de rekentool
 function rekentool(maandprijs, hoeveelMaand){
 	var prijs = maandprijs * hoeveelMaand;
 	alert("De kosten zijn: € " + prijs + " bij " + hoeveelMaand + " maanden" )
