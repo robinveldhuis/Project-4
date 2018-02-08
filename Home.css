@@ -1,0 +1,94 @@
+body{
+  background-image: url("AFBEELDINGEN/back.jpg");
+  background-size: cover;
+  text-align: center;
+}
+h1{
+  color: #151515;
+  font-family: stencil;
+  font-size: 50px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: solid;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+  }
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+
+.imgContainer{
+    float:left;
+    border-radius:15px;
+    display:inline-block auto;
+    margin: auto;
+    width: 25%;
+    border: 3px solid green;
+    padding: 10px;
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+.imgAll{
+    margin: 0px 100px 0px 122px;
+  }
+
+.slider{
+  border: 5px solid blue;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+
+
+
+}
+#footer{
+  margin-top: 5%;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}

@@ -1,0 +1,104 @@
+body{
+  background-image: url("AFBEELDINGEN/back.jpg");
+  background-size: cover;
+  text-align: center;
+
+}
+h1{
+  color: #151515;
+  font-family: stencil;
+  font-size: 50px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: solid;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+  }
+
+div.transbox {
+    margin: 30px;
+    background-color: #F5DA81;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #F5DA81;
+}
+
+table, th, td {
+    border: 5px solid black;
+    border-radius: 5px 0px 5px 0px;
+    border-collapse: collapse;
+
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+    }
+
+.imgContainer, .imgContainer1, .imgContainer2{
+    float:left;
+    border-radius:15px;
+    display:inline-block auto;
+    margin: auto;
+    width: 25%;
+    border: 3px solid green;
+    padding: 10px;
+    margin: 30px;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+.imgContainer {
+  background-color: #FF8000;
+}
+.imgContainer1 {
+  background-color: #D8D8D8;
+}
+.imgContainer2 {
+  background-color: #FFBF00;
+}
+.imgAll{
+    margin: 0px 100px 0px 122px;
+
+}
+#footer{
+  margin-top: 30%;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}

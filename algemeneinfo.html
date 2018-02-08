@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<META content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<LINK href="Home.css"rel="stylesheet" type="text/css" />
+<TITLE>Basiscursus HTML5</TITLE>
+</HEAD>
+<BODY>
+  <DIV id="wrapper">
+  <MARQUEE style="HEIGHT: 20px" 
+scrollAmount=5> 
+<SCRIPT language=javascript>
+<!--
+var x=new Date;
+var dagn=x.getDay();
+if (dagn==1) dagn="Maandag";
+if (dagn==2) dagn="Dinsdag";
+if (dagn==3) dagn="Woensdag";
+if (dagn==4) dagn="Donderdag";
+if (dagn==5) dagn="Vrijdag";
+if (dagn==6) dagn="Zaterdag";
+if (dagn==0) dagn="Zondag";
+var datum=dagn+", "; 
+document.write(datum); 
+var z = x.getDate()
+document.write(z)
+var maand=x.getMonth();
+if (maand==0) maand="Januari";
+if (maand==1) maand="Februari";
+if (maand==2) maand="Maart";
+if (maand==3) maand="April";
+if (maand==4) maand="Mei";
+if (maand==5) maand="Juni";
+if (maand==6) maand="Juli";
+if (maand==7) maand="Augustus";
+if (maand==8) maand="September";
+if (maand==9) maand="October";
+if (maand==10) maand="November";
+if (maand==11) maand="December";
+var datum=" - "+maand; 
+
+document.write(datum+" "+","+"   "); 
+
+uren=x.getHours();
+if (uren>=0&&uren<24)
+document.write("Welkom!")
+
+
+//-->
+</SCRIPT>
+</marquee>  
+<h1>Colicss</h1>
+<div id="menubalk"> 
+<ul>
+    <div class="transbox">
+  <li> <a class="active" href="algemeneinfo.html">Algeme Informatie</a></li>
+  <li><a href="hosting.html">Informatie over hosting</a></li>
+  <li><a href="cloud.html">Informatie over Cloud</a></li>
+  <li><a href="contact.html">Contactpagina</a></li>
+  <li><a href="klanten.html">Klantenpagina</a></li>
+  <li><a href="socialmedia.html">Social media</a></li>
+
+</ul>
+</div>
+
+
+<div class="slider">
+<img class="mySlides" src="AFBEELDINGEN/alfa.jpg" height="400" width="100%">
+<img class="mySlides" src="AFBEELDINGEN/informatie.jpg" height="400" width="100%">
+<img class="mySlides" src="AFBEELDINGEN/data.jpg" height="400" width="100%">
+<img class="mySlides" src="AFBEELDINGEN/hosting.jpg" height="400" width="100%">
+<img class="mySlides" src="AFBEELDINGEN/cloud.png" height="400" width="100%">
+</div>
+
+
+
+  <div class="transbox">
+    <h3>Algemene Informatie</h3>
+      <p>
+        Colicss is een innovatief en vernieuwend bedrijf uit Slagharen
+        dat zich vooral bezighoudt met hosting en sinds kort ook de cloud.
+        Het bedrijf gaat onder leiding van Rob Sieljes al een poos flink voor de wind
+        en zijn binnen twee jaar gegroeid van een eenmanszaak naar een bedrijf met zes man personeel.
+        Onlangs hebben ze nog een prijs gewonnen voor beste innovatie binnen de hosting
+        door samen te werken met het Alfa-college.
+        In dit project hebben studenten van het Alfa-college een hostingomgeving opgezet
+        met daarop een testwebsite. Het panel van deze prijs vond de samenwerking zo gaaf,
+        dat ze de prijs beste innovatie hebben gewonnen.
+      </p>
+  </div>
+
+
+<script src="java.js" type="text/javascript"></script>
+  <div id="footer">
+  <p> &copy; Robin Veldhuis - Pict4v1a</p>
+</div>
